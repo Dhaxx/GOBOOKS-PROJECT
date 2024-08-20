@@ -1,0 +1,31 @@
+GET http://localhost:777/books
+Accept: application/json
+
+#### Cria um novo livro
+POST http://localhost:777/books
+Content-Type: application/json
+
+{
+  "title": "The Lord of the Rings",
+  "author": "J.R.R. Tolkien",
+  "genre": "Fantasy"
+}
+
+### Filtra Livro
+GET http://localhost:777/books/2
+Content-Type: application/json
+
+
+### Atualiza Livro
+PUT http://localhost:777/books/2
+Content-Type: application/json
+
+{
+  "title": "Harry Potter",
+  "author": "J.K. Rowling",
+  "genre": "Fantasy"
+}
+
+### Deleta Livro
+DELETE http://localhost:777/books/8
+Content-Type: application/json
