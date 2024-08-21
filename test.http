@@ -6,8 +6,8 @@ POST http://localhost:777/books
 Content-Type: application/json
 
 {
-  "title": "The Lord of the Rings",
-  "author": "J.R.R. Tolkien",
+  "title": "Harry Potter and the Goblet of Fire",
+  "author": "J.K. Rowling",
   "genre": "Fantasy"
 }
 
